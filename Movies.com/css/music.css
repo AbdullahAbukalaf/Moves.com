@@ -1,0 +1,279 @@
+.topNav{
+  background-color: #333;
+  overflow: hidden;
+}
+.topNav a{
+  font-family: 'Irish Grover', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  float: left;
+  text-align: center;
+  padding: 10px 10px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.topNav a:hover{
+ color: #ffc107;
+}
+
+.h1-title{
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 50px;
+  font-size: 5.375rem;
+  letter-spacing: -.0625rem;
+  line-height: .8;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 700;
+  background-color: #000;
+  color: #fff;
+  margin-left: 600px;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+/*------------------------------------------------------------*/
+/*section1 style*/
+
+.bg-content{
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.news-img1{
+  width: 100%;
+}
+
+.content{
+  text-align: left;
+  padding: 50px;
+}
+
+.content a{
+  margin-top: 10px;
+  font-family: "Britannic Bold", serif;
+  color: #000000;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.content a:hover{
+  color: black;
+  text-decoration-color: red;
+}
+
+#section1 .EMAS{
+  width: 30%;
+}
+
+#section1 .ROCK{
+  width: 30%;
+  margin-left: 525px;
+}
+
+.img3{
+  width: 100%;
+}
+.img2{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+}
+
+.img3{
+  width: 100%;
+}
+
+.img4{
+  width: 90%;
+}
+
+.row a{
+  margin-top: 10px;
+  font-family: "Britannic Bold", serif;
+  color: #000000;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.row p{
+  font-family: "Britannic Bold", serif;
+  color: black;
+
+}
+
+.row a:hover{
+  color: black;
+  text-decoration-color: red;
+}
+
+.container .row-text-aline{
+  text-align: center;
+
+}
+.container hr{
+  width: 50%;
+  margin-left: 300px;
+  margin-top: 40px;
+  border: black dot-dot-dash 1px;
+}
+
+#myBtn{
+  margin-left: 45%;
+}
+#myBtn:hover{
+  box-shadow: 0 4px 17px rgba(0,0,0,0.35);
+}
+
+#myBtn2{
+  margin-left: 45%;
+}
+#myBtn2:hover{
+  box-shadow: 0 4px 17px rgba(0,0,0,0.35);
+}
+/*---------------------------------------------------------------------*/
+/*section2 style*/
+#section2{
+  margin-top: 30px;
+  height: 120px;
+  background-color: #888888;
+}
+
+.topnav {
+  overflow: hidden;
+  font-family: Lekton,sans serif;
+  margin-left: 350px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.topnav a:hover{
+  color: white;
+}
+
+#myTopnav2 img{
+  background-position-y: 12px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  height: 60px;
+  width: 60px;
+}
+
+#myTopnav2 .S2-link{
+  margin-top: 35px;
+}
+
+/*---------------------------------------------------------------------*/
+/*footer style*/
+.footer{
+  text-align: center;
+  height: 250px;
+  background-color: #000000;
+  color: white;
+}
+
+#footer a{
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 20px;
+  margin-left: 20px;
+  line-height: 2;
+  text-align: center;
+}
+
+#footer a:hover{
+  color: #ffcd39;
+}
+
+#footer .brands-link{
+  margin-top: 20px;
+  text-align: center;
+}
+
+#footer p{
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+@media all and (min-width: 1024px) and (max-width: 1366px){
+
+  #title .h1-title{
+    margin-left: 400px;
+    font-size: 4rem;
+    margin-top: 20px;
+}
+#section1{
+  margin-top: -200px;
+}
+.bg-content{
+  top: 22%;
+  left: 50%;
+  width: 100%;
+}
+
+#section1 .EMAS{
+  width: 40%;
+  margin-top: 25%;
+}
+
+#section1 .ROCK{
+  width: 40%;
+  margin-left: 180px;
+  margin-top: 25%;
+}
+
+.bg-content .content{
+  padding: 0;
+
+}
+
+#footer{
+  height: 950px;
+}
+
+.topnav {
+  margin-left: 200px;
+}
+
+}
+
+.hidden{
+  display: none;
+}
